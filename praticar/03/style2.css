@@ -1,0 +1,36 @@
+body{
+    font: normal normal 1em arial;
+    background-color: lightblue;
+}
+div{
+    width: 200px;
+}
+
+div > a{
+    display: none;
+}
+
+div:hover{
+    color: red;
+    background-color: white;
+}
+div:hover > a{
+    color: blue;
+    display: block;
+}
+li > a{
+    text-decoration: none;
+    color: darkred;
+}
+li > a::after{
+    content:' ola';
+    color: green;
+
+}
+li > a::before{
+    content: 'ola ';
+    color: green;
+}
+a::first-line{
+     
+}
