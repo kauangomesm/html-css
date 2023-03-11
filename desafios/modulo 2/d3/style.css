@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#d1{
+    background: green url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    width: 500px;
+}
+#d2{
+    background: green url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    
+}
+p{
+    background-color: rgba(0, 0, 0, 0.089);
+}
+.primeirap{
+    background-color: white;
+}
