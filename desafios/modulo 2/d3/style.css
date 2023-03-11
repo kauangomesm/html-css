@@ -12,6 +12,10 @@
     padding: 0px;
     margin: 0px;
 }
+html, body{
+    min-height: 100vh;
+    background-color: lightgray;
+}
 header{
     background-color: black;
     height: 270px;
@@ -22,47 +26,82 @@ header{
 }
 header h1{
     color:white;
-    font: normal normal 8em var(--font-titulo);
+    font: normal normal 10vw var(--font-titulo);
+    font-variant: small-caps;
 }
-header p, a{
+header p{
     
     color: white;
+    
 }
-a{
+header a , footer  a{
     text-decoration: none;
+    color: white;
 }
 a:hover{
     text-decoration: underline;
 }
-#d1{
-    background: green url(imagens/background001.jpg) right center no-repeat fixed;
-    background-size: cover;
-    
-  
 
-}
-#d2{
-    background: green url(imagens/background002.jpg) center center no-repeat fixed;
-    background-size: cover;
-    
-    
-    
-}
-main p{
-    font: normal normal 3em var(--font-padrao);
-    
-}
-.primeirap{
+.normal{
     background-color: white;
-    padding: 75px 0px 100px 25px;
-    box-shadow: rgba(0, 0, 0, 0.199) 0px 14px 10px;
+    color: black;
 }
-.dentro-img{
-    background-color: rgba(0, 0, 0, 0.514);
-    margin: 75px 0px 100px 25px;
-    max-width: 600px;
+.com-imagem{
+    background-color: rgb(83, 83, 83);
     color: white;
+    box-shadow: inset 0px 3px 20px rgba(0, 0, 0, 0.555);
 }
+section{
+    padding: 10vh 0px 10vh 30px;
+    font: normal normal 3.5vw var(--font-padrao);
+    line-height: 2em;
+}
+
+.com-imagem p{
+    background-color: rgba(0, 0, 0, 0.301);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+#primeira-imagem{
+    background: url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+#segunda-imagem{
+    background: url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     text-align: center;
     padding: 10px;
