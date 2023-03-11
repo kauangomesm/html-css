@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: lightblue url(imagens/espaco.jpg) center center no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+img{
+    max-width: 400px;
+    max-height: 408px;
+}
