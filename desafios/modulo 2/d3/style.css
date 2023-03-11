@@ -1,20 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font-titulo: 'Passion One', cursive;
+    --font-padrao: 'Sriracha', cursive;
+}
+
+
 * {
     padding: 0px;
     margin: 0px;
 }
+header{
+    background-color: black;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color:white;
+    font: normal normal 8em var(--font-titulo);
+}
+header p, a{
+    
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 #d1{
     background: green url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
-    width: 500px;
+    
+  
+
 }
 #d2{
     background: green url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
     
+    
+    
 }
-p{
-    background-color: rgba(0, 0, 0, 0.089);
+main p{
+    font: normal normal 3em var(--font-padrao);
+    
 }
 .primeirap{
     background-color: white;
+    padding: 75px 0px 100px 25px;
+    box-shadow: rgba(0, 0, 0, 0.199) 0px 14px 10px;
+}
+.dentro-img{
+    background-color: rgba(0, 0, 0, 0.514);
+    margin: 75px 0px 100px 25px;
+    max-width: 600px;
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+footer p{
+    color: white;
+    font:  normal normal  1.2em Arial, helvetica, verdana, 'sans-serif';
 }
