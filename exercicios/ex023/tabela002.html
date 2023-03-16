@@ -12,6 +12,7 @@
         table{
             border-collapse: collapse;
             width: 400px;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
@@ -29,6 +30,11 @@
         }
         tbody tr:nth-child(even){
             background-color: lightgray;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #555151;
         }
 
     </style>
